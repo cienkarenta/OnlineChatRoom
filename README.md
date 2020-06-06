@@ -1,2 +1,2 @@
 # OnlineChatRoom
-ChatRoom using .Net Core (SignalR) and client in Vue.js
+Very simple ChatRoom using .Net Core (SignalR) and client in Vue.js
