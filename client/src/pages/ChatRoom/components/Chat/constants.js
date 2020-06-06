@@ -1,63 +1,38 @@
-export const MESSAGES = [
+export const msgs = [
     {
-        user: "Michael Jordan",
-        msgDate: "02.09.2019, 14:00",
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
         content: "You know man - i really like basketball"
     },
     {
-        user: "Mateusz Kruk",
-        msgDate: "02.09.2019, 14:05",
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
         content: "WHAT!? What are you doing here Michael?"
     },
-    {
-        user: "Lebron James",
-        msgDate: "02.09.2019, 14:07",
-        content: "I've invited him there :D"
+];
+
+export const MESSAGE_DATA = {
+    USER_NAME: "user",
+    MESSAGE_DATE: "msgDate",
+    MESSAGE_CONTENT: "content",
+}
+
+export const Messages_Headers = {
+    USER_NAME: {
+        value: ' ',
+        key: MESSAGE_DATA.USER_NAME
     },
-    {
-        user: "Michael Jordan",
-        msgDate: "02.09.2019, 14:00",
-        content: "You know man - i really like basketball"
+    MESSAGE_DATE: {
+        value: ' ',
+        key: MESSAGE_DATA.MESSAGE_DATE
     },
-    {
-        user: "Mateusz Kruk",
-        msgDate: "02.09.2019, 14:05",
-        content: "WHAT!? What are you doing here Michael?"
+    MESSAGE_CONTENT: {
+        value: ' ',
+        key: MESSAGE_DATA.MESSAGE_CONTENT
     },
-    {
-        user: "Lebron James",
-        msgDate: "02.09.2019, 14:07",
-        content: "I've invited him there :D"
-    },
-    {
-        user: "Michael Jordan",
-        msgDate: "02.09.2019, 14:00",
-        content: "You know man - i really like basketball"
-    },
-    {
-        user: "Mateusz Kruk",
-        msgDate: "02.09.2019, 14:05",
-        content: "WHAT!? What are you doing here Michael?"
-    },
-    {
-        user: "Lebron James",
-        msgDate: "02.09.2019, 14:07",
-        content: "I've invited him there :D"
-    },
-    {
-        user: "Michael Jordan",
-        msgDate: "02.09.2019, 14:00",
-        content: "You know man - i really like basketball"
-    },
-    {
-        user: "Mateusz Kruk",
-        msgDate: "02.09.2019, 14:05",
-        content: "WHAT!? What are you doing here Michael?"
-    },
-    {
-        user: "Lebron James",
-        msgDate: "02.09.2019, 14:07",
-        content: "I've invited him there :D"
-    },
-]
+}
 
