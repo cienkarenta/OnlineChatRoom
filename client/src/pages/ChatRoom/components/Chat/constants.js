@@ -13,6 +13,160 @@ export const msgs = [
         },
         content: "WHAT!? What are you doing here Michael?"
     },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
+    {
+        Msgdata: {
+            user: "Michael Jordan",
+            date: "19.10.2019"
+        },
+        content: "You know man - i really like basketball"
+    },
+    {
+        Msgdata: {
+            user: "Mateusz Kruk",
+            date: "19.10.2019"
+        },
+        content: "WHAT!? What are you doing here Michael?"
+    },
 ];
 
 export const MESSAGE_DATA = {

@@ -2,21 +2,24 @@
   <div class="wrapper">
     <div>
       <b-table
-        :items="items"
+        :items="dataList"
         :fields="fields"
         responsive
         borderless
+        sticky-header="70vh"
+        class="table"
+        head-variant="light"
       >
-        <template v-slot:cell(Msgdata)="data">
+        <template v-slot:cell(msgData)="data">
           <v-row>
-            <span>{{data.value.user}} :</span>
+            <span>{{data.value.userName}} :</span>
           </v-row>
           <v-row>
-            <span class="sub">{{data.value.date}}</span>
+            <span class="sub">{{data.value.messageDate}}</span>
           </v-row>
         </template>
         <template>
-          <span style="width: 30px"></span>
+          <span style="width: 70px"></span>
         </template>
         <template v-slot:cell(content)="data">
           {{data.value}}
@@ -27,31 +30,45 @@
 </template>
 
 <script>
-  import { msgs } from "./constants"
+  import { mapGetters } from "vuex";
 
   export default {
         name: "Chat",
         data: () => {
             return {
-                items: msgs,
                 fields: [
-                    {key: 'Msgdata', label: ''},
+                    {key: 'msgData', label: ''},
                     {key: 'divider', label: ''},
                     {key: 'content', label: ''}
                 ],
             }
         },
-
-    }
+        computed: {
+            ...mapGetters(['dataList'])
+        },
+        created() {
+            setInterval(() => {
+                console.log(this.dataList);
+            }, 5000)
+        }
+  }
 </script>
 
 <style scoped>
-  .wrapper{
-    width: 60vw;
+  .wrapper {
+    width: 23vw;
+    min-width: 310px;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto 0 auto;
+    margin: 0 auto 0 auto;
+  }
+  .table {
+    min-width: 300px;
+    width: 23vw;
+    background-color: ghostwhite;
+
   }
   .sub {
     color: grey;
